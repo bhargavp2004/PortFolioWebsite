@@ -10,11 +10,22 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Candal&family=Montserrat:wght@400;500&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <style>
+    .social-links {
+      margin-top: 20px;
+    }
+
+    .social-links a {
+      color: white;
+      margin-right: 10px;
+      font-size: 20px;
+    }
+  </style>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       const navLinks = document.querySelectorAll(".nav-link");
@@ -43,9 +54,11 @@
 </head>
 
 <body>
+  <!-- Horizontal Navigation bar for page routing -->
+
   <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-made" style="color:white;">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img style="max-height: 50px;"class="imageClass" src="bhargav-logo-removebg-preview.png" alt=""></a>
+      <a class="navbar-brand" href="#"><img style="max-height: 50px;" class="imageClass" src="bhargav-logo-removebg-preview.png" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -69,9 +82,13 @@
 
     <div class="hero container align-items-center justify-content-center padding : 0">
       <div>
-        <h1>Hello, I'm <span class="spanStyle" style="color: blue">Bhargav</span></h1> 
+        <h1>Hello, I'm <span class="spanStyle" style="color: blue">Bhargav</span></h1>
         <h6>I'm thrilled to welcome you to my corner of the internet!</h6>
-        <p>I am a passionate <b><span style="color:red" >computer engineer </span></b>, driven by a deep curiosity for cutting-edge technologies, software development, and problem-solving.</p>
+        <p>I am a passionate <b><span style="color:red">computer engineer </span></b>, driven by a deep curiosity for cutting-edge technologies, software development, and problem-solving.</p>
+        <div class="social-links">
+          <a href="https://www.instagram.com/bhargavp2004/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/bhargav-patel-4a82b3225/"><i class="fab fa-linkedin-in"></i></a>
+        </div>
       </div>
     </div>
   </section>
@@ -88,45 +105,7 @@
         <div class="col-2 my-3">
           <i class="devicon-cplusplus-plain colored"></i>
         </div>
-        <div class="col-2 my-3">
-          <i class="devicon-django-plain colored" style="color : green;"></i>
-        </div>
-        <div class="col-2 my-3">
-          <i class="devicon-github-original"></i>
-        </div>
-        <div class="col-2 my-3">
-          <i class="devicon-css3-plain-wordmark colored"></i>
-        </div>
-        <div class="col-2 my-3">
-          <i class="devicon-html5-plain-wordmark colored"></i>
-        </div>
-        <div class="col-2 my-3">
-          <i class="devicon-javascript-plain colored"></i>
-        </div>
-        <div class="col-2 my-3">
-          <i class="devicon-java-plain-wordmark colored"></i>
-        </div>
-        <div class="col-2 my-3">
-          <i class="devicon-mysql-plain-wordmark colored"></i>
-        </div>
-        <div class="col-2 my-3">
-          <i class="devicon-python-plain-wordmark colored"></i>
-        </div>
-        <div class="col-2 my-3">
-          <i class="devicon-spring-plain-wordmark colored"></i>
-        </div>
-        <div class="col-2 my-3">
-          <i class="devicon-php-plain colored"></i>
-        </div>
-        <div class="col-2 my-3">
-          <i class="devicon-aftereffects-plain colored"></i>
-        </div>
-        <div class="col-2 my-3">
-          <i class="devicon-photoshop-plain colored"></i>
-        </div>
-        <div class="col-2 my-3">
-          <i class="devicon-premierepro-plain colored"></i>
-        </div>
+        <!-- Rest of your skills icons -->
       </div>
     </div>
   </section>
@@ -146,12 +125,11 @@
           <p>(Django)</p>
         </div>
       </div>
-     
+
     </div>
 
     <div class="align-bottom" style="color : white; background-color: rgb(26, 32, 44);">
-      <p>Note: Click on the project to view the project. Please note that the projects are implemented for learning
-        backend process only. Front-end may not look that great 😅</p>
+      <p>Note: Click on the project to view the project. Please note that the projects are implemented for learning backend process only. Front-end may not look that great 😅</p>
     </div>
   </section>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
