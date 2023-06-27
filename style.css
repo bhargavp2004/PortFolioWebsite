@@ -58,7 +58,7 @@ i{
 }
 
 .projectImage{
-  width:100%;
+  width: 50%;
   height : auto;
   border : 3px solid rgba(0, 0, 255, 0.4) ;
 }
@@ -180,4 +180,44 @@ svg{
 
 .svg-container{
   margin-right : 10px;
+}
+
+.col-4{
+  height : 157px;
+}
+
+.custom-row-height {
+  height: 150px; /* Adjust the height value as per your requirement */
+}
+
+.skill-card {
+  text-align: center;
+  border: 1px solid;
+  border-color : rgba(255, 255, 255, 0.3);
+  background-color: rgb(21, 33, 57);
+  border-radius : 5px;
+  padding: 2px;
+  margin-bottom: 6px;
+}
+
+.skill-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+}
+
+.skill-icon img {
+  width: 30px;
+  height: auto;
+}
+
+.skill-name {
+  margin-top: 2px;
+}
+
+.card{
+  background-color : rgb(26, 32, 44);
+  color : white;
+  border : 2px solid rgba(255, 255, 255, 0.3);
 }
