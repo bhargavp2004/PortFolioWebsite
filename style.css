@@ -221,3 +221,8 @@ svg{
   color : white;
   border : 2px solid rgba(255, 255, 255, 0.3);
 }
+
+.multiText{
+  color : #7f00f7;
+  text-transform: capitalize;
+}
